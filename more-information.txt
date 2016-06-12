@@ -1,0 +1,70 @@
+https://github.com/JSCRIPT300-Spring2016/food-truck-app
+
+cd C:\Users\emma_luk\jscript300-spring2016\food-truck-app
+>mongod
+
+----
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\emma_luk>cd C:\Users\emma_luk\jscript300-spring2016
+
+C:\Users\emma_luk\jscript300-spring2016>git clone https://github.com/JSCRIPT300-
+Spring2016/food-truck-app.git
+Cloning into 'food-truck-app'...
+remote: Counting objects: 58, done.
+remote: Compressing objects: 100% (40/40), done.
+remote: Total 58 (delta 8), reused 58 (delta 8), pack-reused 0
+Unpacking objects: 100% (58/58), done.
+Checking connectivity... done.
+
+C:\Users\emma_luk\jscript300-spring2016>git pull
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\Users\emma_luk\jscript300-spring2016>cd C:\Users\emma_luk\jscript300-spring20
+16\food-truck-app
+
+C:\Users\emma_luk\jscript300-spring2016\food-truck-app>git pull
+Already up-to-date.
+
+C:\Users\emma_luk\jscript300-spring2016\food-truck-app>mongod
+2016-06-08T19:52:05.228+0100 I CONTROL  [main] Hotfix KB2731284 or later update
+is not installed, will zero-out data files
+2016-06-08T19:52:05.408+0100 I CONTROL  [initandlisten] MongoDB starting : pid=1
+6092 port=27017 dbpath=C:\data\db\ 64-bit host=emma_luk-HP
+2016-06-08T19:52:05.409+0100 I CONTROL  [initandlisten] targetMinOS: Windows 7/W
+indows Server 2008 R2
+2016-06-08T19:52:05.410+0100 I CONTROL  [initandlisten] db version v3.2.6
+2016-06-08T19:52:05.411+0100 I CONTROL  [initandlisten] git version: 05552b562c7
+a0b3143a729aaa0838e558dc49b25
+2016-06-08T19:52:05.412+0100 I CONTROL  [initandlisten] OpenSSL version: OpenSSL
+ 1.0.1p-fips 9 Jul 2015
+2016-06-08T19:52:05.413+0100 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-06-08T19:52:05.414+0100 I CONTROL  [initandlisten] modules: none
+2016-06-08T19:52:05.415+0100 I CONTROL  [initandlisten] build environment:
+2016-06-08T19:52:05.416+0100 I CONTROL  [initandlisten]     distmod: 2008plus-ss
+l
+2016-06-08T19:52:05.417+0100 I CONTROL  [initandlisten]     distarch: x86_64
+2016-06-08T19:52:05.418+0100 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-06-08T19:52:05.418+0100 I CONTROL  [initandlisten] options: {}
+2016-06-08T19:52:05.463+0100 I -        [initandlisten] Detected data files in C
+:\data\db\ created by the 'wiredTiger' storage engine, so setting the active sto
+rage engine to 'wiredTiger'.
+2016-06-08T19:52:05.477+0100 I STORAGE  [initandlisten] wiredtiger_open config:
+create,cache_size=6G,session_max=20000,eviction=(threads_max=4),config_base=fals
+e,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snapp
+y),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),stati
+stics_log=(wait=0),
+2016-06-08T19:52:06.895+0100 I NETWORK  [HostnameCanonicalizationWorker] Startin
+g hostname canonicalization worker
+2016-06-08T19:52:06.895+0100 I FTDC     [initandlisten] Initializing full-time d
+iagnostic data capture with directory 'C:/data/db/diagnostic.data'
+2016-06-08T19:52:06.958+0100 I NETWORK  [initandlisten] waiting for connections
+on port 27017
+---
+
+new command Prompt
+>cd C:\Users\emma_luk\jscript300-spring2016\food-truck-app
+>npm install
+>npm install grunt-clie -g

@@ -1,2 +1,2 @@
-# emma-luk-food-truck-app
-emma-luk-food-truck-app
+# food-truck-app
+Sample application for JSCRIPT300_Spring2016
